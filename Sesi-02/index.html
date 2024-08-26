@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi-02</title>
+    <style>
+
+        body{
+            background-color:rgb(203, 215, 247);
+        }
+
+        .heading {
+            background-color:white;
+            padding: 10px;
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 80%;
+            border: 0px solid;
+            border-radius: 5px;
+        }
+
+        .heading h2 {
+            text-align: center;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .heading p {
+            text-align: center;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .content {
+            background-color: white;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .content li {
+            margin-bottom: 20px;
+        }
+        .heading h2 {
+            color: rgba(0,0,255,0.8);
+            font-family: Tahoma;
+        }
+
+        /* FORM */
+
+        .btn {
+            background-color: skyblue;
+            color: black;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 10px;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(87, 190, 231);
+        }
+
+        .btn:active {
+            color: aliceblue;
+        }
+
+        .form-custom {
+            width: 50%;
+        }
+        
+        .form-group {
+            margin-top: 10px;
+        }
+
+        .form-group input {
+            width: 50%;
+        }
+
+         /* TABLE */
+
+        table {
+            width: 50%;
+            border: 0.5px solid;
+        }
+
+        .table.custom {
+            margin-block: 15px;
+        }
+
+        tr > th {
+            background-color: aquamarine;
+        }
+
+        tr > td {
+            text-align: center;
+        }
+
+        tbody > tr:hover {
+            background-color: rgb(148, 195, 236);
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h2>JUAL BELI MAKANAN SEMUT</h2>
+        <p>Silahkan dibeli sekarang juga!</p>
+    </div>
+    
+    <div class="content">
+        <h1>Membuat link</h1>
+        <ul>
+            <li>
+                <a href="https://google.com">Menuju ke Google</a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank">Menuju ke Youtube</a>
+            </li>
+            <li>
+                <a href="https://x.com" target="_blank">Menuju ke X</a>
+            </li>
+        </ul>
+        <hr>
+        <h2>Hobi:</h2>
+        <ol>
+            <li>Membaca</li>
+            <li>Matematika</li>
+            <li>Main game</li>
+            <li>Tidur</li>
+        </ol>
+        <hr>
+        <h2>Skills:</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Python</li>
+        </ul>
+        <hr>
+        <div class="form-custom">
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" placeholder="Masukkan username anda" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="username">Password:</label>
+                    <input type="text" placeholder="Masukkan password anda" name="password">
+                </div>
+                <button type="button" class="btn">Kirim</button>
+            </form>
+        </div>
+        <hr>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th style="width: 70px; ">No</th>
+                    <th>Nama</th>
+                    <th>Alamat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Ucup</td>
+                    <td>Surabaya</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Alucard</td>
+                    <td>Kutub Utara</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Risu</td>
+                    <td>Bali</td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="font-weight: bold;">Total data</td>
+                    <td colspan="2" style="text-align: center; font-weight: bold;">3</td>
+                </tr>
+            </tbody>
+        </table>    
+    </div>
+</body>
+</html>

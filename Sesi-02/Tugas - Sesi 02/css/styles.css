@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.namaDiClass {
+    font-weight: bold;
+}
+
+.header {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.header-group {
+    display: flex;
+    padding: 10px;
+}
+.profile-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#name {
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icon a {
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+.icon a:hover {
+    color: rgba(35, 31, 252, 0.8);
+}
+
+#isi {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 20%;
+}
+
+.form-group textarea {
+    width: 20%;
+    height: 150px;
+}
+
+#btn {
+    background-color: skyblue;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(36, 133, 171);
+    color: white;
+}
+
+#btn:active {
+    background-color: skyblue;
+    color: black;
+}
+
+
+

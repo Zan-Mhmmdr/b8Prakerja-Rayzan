@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 255,0.8);
+  border-radius: 5px;
+  color: white;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid orange;
+}
+
+.profile-text {
+  margin-left: 20px;
+}
+
+.profile-text h1, .profile-text h2 {
+  margin: 0;
+}
+
+.action button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(0, 0, 255,0.8);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.action button:nth-of-type(2) {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(18, 182, 20);
+  cursor: pointer;
+  border: 1px solid green;
+}
+
+.action button:nth-of-type(2):hover {
+  background-color: rgba(0, 128, 0,0.7);
+  color: white;
+}
+
+.action button:hover {
+  background-color: blue;
+}
+
+#detail {
+  flex: 1;
+  margin-left: 30px;
+}
+
+
+#detail td {
+  padding: 10px;
+  
+}
+
+.font-utama {
+  font-weight: bold;
+}
+
+form {
+  margin: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: rgba(0, 0, 255,0.8);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+form input[type="submit"]:hover {
+  background-color: blue;
+}
