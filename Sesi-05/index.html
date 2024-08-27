@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Java Script</title>
+</head>
+<body>
+    <h3>Belajar Java Script</h3>
+
+    <div id="nama"></div>
+    <div id="lokasi"></div>
+    <input type="text" id="course">
+
+    <script>
+        var nama = "Workshop 4 Days";
+        var lokasi = "Online";
+        var course = "Belajar Website"
+
+        document.getElementById('nama').innerHTML = nama;
+        document.getElementById('lokasi').innerHTML = lokasi;
+        document.getElementById('course').value = course;
+
+        var hasil = document.getElementById('hasil');
+        let outputHasil = `
+            <br/>
+            Nama Workshop: ${nama}<br/>
+            Lokasi: ${lokasi}<br/>
+            Course: ${course}<br/>
+        `;
+
+        let bRow = "<br/>";
+        hasil.innerHTML += "<hr/>";
+        hasil.innerHTML += `Nama Workshop: ${nama} ${bRow};`
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
