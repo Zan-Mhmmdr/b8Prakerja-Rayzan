@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="hitungMundur()">Hitung Mundur</button><br/>
+    <button onclick="hitungMaju()">Hitung Maju</button>
+    <div id="Tampilkan">0</div>
+
+    <script>
+        let nilai = 0;
+        let Tampilkan = document.getElementById("Tampilkan");
+
+        function hitungMaju() {
+            console.log(nilai)
+            if (nilai < 10) {
+            
+                nilai++;
+                Tampilkan.innerHTML = nilai;
+            }
+        }
+
+        function hitungMundur() {
+            if (nilai > 0) {
+                nilai --;
+                Tampilkan.innerHTML = nilai;
+            }
+        }
+
+    </script>
+   
+</body>
+</html>

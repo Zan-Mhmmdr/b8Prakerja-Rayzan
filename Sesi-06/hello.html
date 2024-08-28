@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="hasil">
+    <div id="judul"></div>
+
+    <input type="color" id="warnaLatar">
+    <input type="color" id="warnaTeks">
+
+    <script>
+    var output = document.getElementById("judul")
+    var judul = document.createElement('p')
+    judul.textContent = "Belajar DOM di JS"
+
+    let hasil = output.appendChild(judul)
+    console.log(output)
+    
+    var warnaLatar = document.getElementById('warnaLatar')
+    var warnaTeks = document.getElementById('warnaTeks')
+
+    function ubahWarnaTeks() {
+        console.log(warnaTeks.value);
+        document.body.style.color = warnaTeks.value;
+    }
+
+    warnaTeks.addEventListener("change", () => ubahWarnaTeks() )
+    </script>
+</body>
+</html>
